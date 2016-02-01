@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle react-note@0.0.0~prestart: react-note@0.0.0
+6 silly lifecycle react-note@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle react-note@0.0.0~start: react-note@0.0.0
+8 verbose lifecycle react-note@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle react-note@0.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;E:\小打小闹\react~\react-note\node_modules\.bin;D:\mysql-5.6.27-win32\bin;C:\Program Files\Broadcom\Broadcom 802.11;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files (x86)\iFLYTEK\VoiceAssistapnt\SppeechPlusRuntime;C:\Program Files\nodejs\;C:\Users\林泽鹏\AppData\Roaming\npm
+10 verbose lifecycle react-note@0.0.0~start: CWD: E:\小打小闹\react~\react-note
+11 silly lifecycle react-note@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 silly lifecycle react-note@0.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle react-note@0.0.0~start: Failed to exec start script
+14 verbose stack Error: react-note@0.0.0 start: `node ./bin/www`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid react-note@0.0.0
+16 verbose cwd E:\小打小闹\react~\react-note
+17 error Windows_NT 6.3.9600
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+19 error node v5.0.0
+20 error npm  v3.3.6
+21 error code ELIFECYCLE
+22 error react-note@0.0.0 start: `node ./bin/www`
+22 error Exit status 1
+23 error Failed at the react-note@0.0.0 start script 'node ./bin/www'.
+23 error This is most likely a problem with the react-note package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node ./bin/www
+23 error You can get their info via:
+23 error     npm owner ls react-note
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
