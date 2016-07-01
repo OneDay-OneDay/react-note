@@ -1,0 +1,34 @@
+.notes-enter{
+	transform: scale(1.2);
+	opacity: 0.01;
+  	transition: all .5s ease-in;
+}
+.notes-enter-active{
+	transform: scale(1);
+	opacity: 1;
+}
+.notes-leave{
+	transform: scale(1);
+	opacity: 1;
+  	transition: all .5s ease-in;
+}
+.notes-leave-active{
+	transform: scale(1.2);
+	opacity: 0;
+}
+
+.form_animation-enter{
+	opacity: 0.01;
+  	transition: all .5s ease-in;
+}
+.form_animation-enter-active{
+	opacity: 1;
+}
+.form_animation-leave{
+	opacity: 1;
+  	transition: all .5s ease-in;
+}
+
+.form_animation-leave-active{
+	opacity: 0;
+}

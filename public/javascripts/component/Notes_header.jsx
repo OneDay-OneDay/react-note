@@ -1,5 +1,5 @@
 "use strict";
-import React from "react";
+import React, { Component, PropTypes } from "react";
 
 class Notes_header extends React.Component{
 	render(){
@@ -12,6 +12,10 @@ class Notes_header extends React.Component{
 			</div>
 		);
 	}
+}
+
+Notes_header.propTypes = {
+	onToggleForm : PropTypes.func.isRequired
 }
 
 export default Notes_header;

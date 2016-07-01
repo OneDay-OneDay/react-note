@@ -1,5 +1,5 @@
 "use strict";
-import React from "react";
+import React, { Component, PropTypes } from "react";
 
 class Notes_form extends React.Component{
 
@@ -31,6 +31,12 @@ class Notes_form extends React.Component{
 			</div>
 		);
 	}
+}
+
+Notes_form.propTypes = {
+	onToggleForm : PropTypes.func.isRequired,
+	formDisplayed : PropTypes.bool.isRequired,
+	onNewNote : PropTypes.func.isRequired
 }
 
 export default Notes_form; 

@@ -1,5 +1,5 @@
 "use strict";
-import React from "react";
+import React, { Component, PropTypes } from "react";
 
 class Notes_item extends React.Component{
 
@@ -28,6 +28,13 @@ class Notes_item extends React.Component{
 			</div>
 		);
 	}
+}
+
+Notes_item.propTypes = {
+	title : PropTypes.string.isRequired,
+	description : PropTypes.string.isRequired,
+	date : PropTypes.string.isRequired,
+	onDeleteNote : PropTypes.func.isRequired
 }
 
 export default Notes_item;
