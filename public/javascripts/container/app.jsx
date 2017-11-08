@@ -2,7 +2,7 @@
 import React, { Component, PropTypes } from "react";
 import ReactDOM from "react-dom";
 import { connect } from "react-redux";
-import { initNotes, addNote, deleteNote, displayedNode } from "../action/action.jsx";
+import { initNotes, addNote, deleteNote, DISPLAYED_NOTE } from "../action/action.jsx";
 import Notes_header from "../component/Notes_header.jsx";
 import Notes_form from "../component/Notes_form.jsx";
 import Notes_list from "../component/Notes_list.jsx";
@@ -36,13 +36,13 @@ class Notes extends React.Component {
 
 function mapStateToProps(state) {
 	return {
-		formDisplayed: state.formDisplayed
+		// formDisplayed: state.formDisplayed
 	};
 }
 
 function mapDispatchToProps(dispatch) {
 	return {
-		onToggleForm: () => dispatch(displayedNode()),
+		onToggleForm: () => dispatch({ type: DISPLAYED_NOTE }),
 		onNewNote: newNote => dispatch(addNote(newNote)),
 		onDeleteNote: date => dispatch(deleteNote(delete_date))
 	}

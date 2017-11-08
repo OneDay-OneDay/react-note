@@ -20,5 +20,6 @@ function notes(state = [], action) {
 	}
 }
 
+
 const rootReducer = combineReducers({ notes });
 export default rootReducer;

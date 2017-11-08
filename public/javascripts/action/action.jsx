@@ -9,9 +9,6 @@ export const DISPLAYED_NOTE = "DISPLAYED_NOTE";
 
 
 //action创建函数
-export function displayedNode() {
-	return { type: DISPLAYED_NOTE };
-}
 
 //异步action会被redux-thunk中间件拦截，传入dispatch，getState等参数后执行
 export function initNotes() {
